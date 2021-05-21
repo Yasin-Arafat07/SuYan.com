@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Web Login Form</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<div style="margin: 0 auto; width: 800px; height: auto;">
+     <form action="Login submission.html" target="_blank" method="post" accept-charset="utf-8" style=" color: white;" >
+          <fieldset style=" border: 1px solid black; background-image: url('image/mosque/3dwp.jpg');background-repeat: no-repeat; 
+                            background-size: cover; opacity: 0.7px;">
+               <legend style="border: 1px solid black; color: white; background-color: orange; text-align: center; padding: 10px;">
+                       <b>Login Information</b></legend>
+          
+
+     	<label for="name"> Name</label>
+     	<input type="name" id="Name" placeholder="Enter Name" name="name" size="30"><br><br>
+
+          <label for="gmail">E-Mail</label>
+          <input type="gmail" name="gmail" id="gmail" size="30" placeholder="E-mail"> <br><br>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone"pattern="[0-9]{5}[0-9]{3}[0-9]{3}" required maxlength="14" placeholder="880"> <br><br>
+
+          <label for="id">Company ID</label>
+          <input type="idnum" name="id" id="id" placeholder="Your ID"> <br><br>
+
+          <label for="pwd">Password</label>
+          <input type="password" name="password" id="pwd" placeholder="Password" minlength="8"><br><br>
+              
+          <label for="url">Web Address</label>
+          <input type="url" name="url" id="url" placeholder="url"> <br><br>
+          
+          <label>Choose Browser</label>
+          <input list="browser" name="browser" placeholder="Browser">
+          <datalist id="browser">
+               <option value="Google Chrome"></option>
+               <option value="Fire Fox"></option>
+               <option value="Mozilla"></option>
+               <option value="Microsoft edge"></option>
+               <option value="Safari"></option> 
+          </datalist><br><br>
+
+          <input type="submit" name="submit" value="Submit" style="padding:8px 30px; color: white; background-color: orange; margin-left: 20px; font-size: 15px; cursor:pointer; "> <br><br>
+
+
+
+          </fieldset>
+     </form>
+     </div>
+	
+</body>
+</html>

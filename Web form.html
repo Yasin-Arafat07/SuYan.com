@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Website Table</title>
+	<link rel="stylesheet" href="">
+      
+      <style type="text/css" media="screen">
+             
+     fieldset{
+        width: 800px;
+        height: 920px;
+        margin: 0px auto;
+        color: white;
+        font-size: 17px;
+        background-image: url('image/mosque/form2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: all;
+        /*box-shadow: inset 2px 2px 10px 10px #f0f8ff;*/
+     }
+     .qualify input{
+        padding: 10px;
+     }
+     
+     /*----submit---*/
+     .submit {
+  
+
+}
+
+     /*=---image---*/
+     .image {
+          margin-left: 325px;
+          
+  }
+     .image:hover{
+          opacity: 0.5;
+          transition-duration: 0.3s;
+     }
+  table tr td 
+     input[type="text"],
+     input[type="email"],
+     input[type="phone"],
+     input[type="city"],
+     input[type="file"],
+     input[type="ccode"],
+     input[type="fname"],
+     input[type="sname"],
+     input[type=""]
+{padding: 4px 10px;
+ width: 200px;
+ border: none;
+}  
+     
+     .rsubmit input[type="image"]{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          /*border: 1px solid white;*/
+          background-color: transparent;
+          outline: none;
+          margin-top: 15px;
+     }
+     .rsubmit input[type="image"]{
+          /*opacity: 0.5 red;*/
+     }
+     /*----image line----*/
+     .imgline{
+
+     }
+  
+      </style>
+     
+     
+
+</head>
+<body>
+     
+     <form action="Submission message.html">
+       
+        <fieldset>
+                 <legend style="border: 2px solid white; color: white; background-color: #273be2; font-size: 20px; padding: 10px; 
+                         text-shadow: 2px 3px black; box-shadow: 3px 3px 15px 15px #eaeaea;" align="center"><b>Student Information</b></legend>
+         <table border="0" cellpadding="10" cellspacing="0">
+
+               <tr>
+                    <td><label for="file">Attach Your image</label></td><br>
+                    <td colspan="3"><input type="file" name="file"></td>
+               </tr>
+               <tr>
+                  
+                  <td><label for="fname">First Name</label></td>
+                  <td><input type="fname" name="fname" id="fname" placeholder="First Name"></td>
+
+                  <td><label for="sname">Sure Name</label></td>
+                  <td><input type="sname" name="sname" id="sname" placeholder="Sure name"></td>
+               </tr>
+               <tr>
+                  <td><label for="email">E-mail ID</label></td>   
+                  <td><input type="email" name="email" id="email" placeholder="xxxxxxxxxx@gmail.com"></td>
+
+                  <td><label for="gender">Gender</label></td>
+                  <td><input type="radio" name="gender" value="male"> Male <br>                     
+                      <input type="radio" name="gender" value="female"> Female <br>
+                      <input type="radio" name="gender" value="others"> Others</td>     
+               </tr>
+               <tr>
+                  <td><label for="dob">Date of Birth</label></td>       
+                  <td colspan="3"><input type="date" name="date" id="date" placeholder="Your Birthday"></td>
+               </tr>
+               <tr>
+                  <td><label for="phone">Phone Number</label></td>
+                  <td><input type="phone" name="phone" id="tel" placeholder="+00801739xxxxxx" maxlength="11"></td>
+               </tr>
+               <tr>
+                  <td><label for="address">Address</label></td> 
+                  <td colspan="3"><textarea name="address" rows="3" cols="28" placeholder="Your Address..."></textarea></td>
+               </tr>
+               <tr>
+                  <td><label for="city">City</label></td>
+                  <td><input type="city" name="city" placeholder="City Name"></td> 
+               
+                  <td><label for="ccode">City Code</label></td>
+                  <td><input type="ccode" name="ccode" placeholder="XXXX"></td> 
+               </tr>
+               <tr class="qualify">
+                  <td><label for="qualification">Qualification</label></td>
+                  <td colspan="3"> 
+                     <input type="checkbox" name="qualify" value="SSC"> High School (10th)<br>
+                     <input type="checkbox" name="qualify" value="HSC"> Higher school (12th)<br>
+                     <input type="checkbox" name="qualify" value="graduation"> Graduation (Bachelor)<br>
+                     <input type="checkbox" name="qualify" value="masters"> Post Graduation (Masters)<br>
+                     <input type="checkbox" name="qualify" value="phd"> PHD 
+                  </td>  
+               </tr>
+               <tr>
+                  <td><label for="qualification">Course Applied for</label></td>
+                  <td colspan="3"> 
+                     <input type="radio" name="apply" value="BCA"> BCA (Batchelor of Computer App.)<br>
+                     <input type="radio" name="apply" value="B.Com"> B.Com (Batchelor of Commarce)<br>
+                     <input type="radio" name="apply" value="B.Sc"> B.Sc (Batchelor of Science)<br>
+                     <input type="radio" name="apply" value="BA"> BA (Batchelor of Arts)<br>
+                     <input type="radio" name="apply" value="MCA"> MCA (Master of Computer App.)<br>
+                     <input type="radio" name="apply" value="M.Com"> M.Com (Master of Commerce)<br>
+                     <input type="radio" name="apply" value="MSC"> MSC (Master of Science)<br>
+                     <input type="radio" name="apply" value="MA"> MA (Master of Arts)
+                  </td>  
+               </tr>
+
+               
+         </table>  
+                     <!-- <hr style="width: 600px; color: gainsboro; height: 1px; "> -->
+                          
+                     
+                   <div class="rsubmit">
+                        <div><input type="image" src="image/circle.png" style="width: 120px; height: 120px;"></div>
+                        <!-- <img class="imgline" src="image/line.png" height="50" width="300"> -->
+                   </div>
+                  
+        </fieldset>
+      
+     </form>
+
+    
+     
+</body>
+</html>
