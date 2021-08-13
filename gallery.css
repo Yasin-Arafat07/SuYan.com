@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+*,*::after, *::before{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+:root{
+   --deep-cyan: #008B8B;
+   --lite-cyan: #00FFEF;
+   --cyan: #00ffff;
+   --bg-cyan: #F0FFFF;
+   --deep-blue: #0000cd;
+   --lite-blue: #4f86f7;
+   --red: #ff0000;
+   --navy: #000080;
+   --blue: #00B7EB;
+}
+p{
+   /*font-family: 'Josefin Sans', sans-serif;*/
+}
+a{
+   text-decoration: none;
+   /*font-family: 'Josefin Sans', sans-serif;*/
+}
+ul{
+   list-style-type: none;
+}
+img{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+.container{
+   width: 85%;
+   margin: 0 auto;
+}
+/*---Web Top---*/
+.top-up{
+	background-color: var(--deep-cyan);
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   width: 100%;
+}
+.mail-phone{
+   display: flex;
+   width: 30%;
+}
+
+.mail a, .mail i, .phone a, .phone i{
+   margin-right: 5px;
+   color: whitesmoke;
+}
+.mail, .phone{
+   padding-right: 15px;
+   
+}
+
+/*--Social Media--*/
+.sociallink{
+   width: 60%;
+   display: flex;
+   justify-content: flex-end;
+}
+.sociallink li a{
+   color: whitesmoke;
+   padding: 0px 15px;
+}
+.sociallink li a:hover{
+   color: var(--navy);
+   transition-duration: 0.4s;
+   background-color: whitesmoke;
+   border-radius: 10px;
+}
+.social ul{
+   display: flex;
+   justify-content: flex-end;
+}
+.link-inner{
+   display: flex;
+   padding: 7px 10px;
+   justify-content: space-between;
+}
+
+/*------Menu Area-----*/
+.header-area{
+   background-color: var(--lite-cyan);
+   padding: 20px 0px;
+   position: fixed;
+   top: 38px;
+   left: 0;
+   width: 100%;
+   z-index: 999;
+   box-shadow: 1px 1px 8px 0px #555555;
+}
+
+.head-inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo{
+   /*width: 10%;*/
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 25px;
+   width: 10%
+}
+.logo a{
+   color: black;
+}
+.logo i{
+   font-size: 30px;
+   text-align: center;
+   color: black;
+}
+.menu{
+   width: 80%;
+   /*background-color: white;*/
+   
+}
+.menu ul{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+.menu ul a{
+  color: black;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+.menu ul a:hover{
+   border-bottom: 3px solid white;
+   transition-duration: .2s;
+
+}
+/*----Gallery Section Start----*/
+.Gallery-all{
+   margin-top: 200px;
+}
+.title h1{
+   text-align: center;
+   font-size: 70px;
+   font-weight: bold;
+   padding: 20px;
+}
+/*----Gallery Section End----*/

@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+*,*::after, *::before{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+:root{
+   --deep-cyan: #008B8B;
+   --lite-cyan: #00FFEF;
+   --cyan: #00ffff;
+   --bg-cyan: #F0FFFF;
+   --deep-blue: #0000cd;
+   --lite-blue: #4f86f7;
+   --red: #ff0000;
+   --navy: #000080;
+   --blue: #00B7EB;
+   --black: #353839;
+}
+a{
+   text-decoration: none;
+}
+ul{
+   list-style-type: none;
+}
+img{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+fieldset{
+   border: 0;
+}
+.container{
+   width: 85%;
+   margin: 0 auto;
+}
+.container-2{
+   width: 60%;
+   margin: 0 auto;
+}
+/*---Web Top---*/
+.top-up{
+   background-color: var(--deep-cyan);
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   width: 100%;
+}
+.mail-phone{
+   display: flex;
+   width: 30%;
+}
+
+.mail a, .mail i, .phone a, .phone i{
+   margin-right: 5px;
+   color: whitesmoke;
+}
+.mail, .phone{
+   padding-right: 15px;
+}
+
+/*--Social Media--*/
+.sociallink{
+   width: 60%;
+   display: flex;
+   justify-content: flex-end;
+}
+.sociallink li a{
+   color: whitesmoke;
+   padding: 0px 15px;
+}
+.sociallink li a:hover{
+   color:var(--navy);
+   transition-duration: 0.3s;
+   background-color: whitesmoke;
+   border-radius: 10px;
+}
+.social ul{
+   display: flex;
+   justify-content: flex-end;
+}
+.link-inner{
+   display: flex;
+   padding: 7px 10px;
+   justify-content: space-between;
+}
+
+/*------Menu Area-----*/
+.header-area{
+   background-color: var(--lite-cyan);
+   padding: 20px 0px;
+   position: fixed;
+   top: 38px;
+   left: 0;
+   width: 100%;
+   z-index: 999;
+   box-shadow: 1px 1px 8px 0px #555555;
+}
+
+.head-inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 25px;
+   width: 10%
+}
+.logo a{
+   color: black;
+}
+.logo i{
+   font-size: 30px;
+   text-align: center;
+}
+.menu{
+   width: 80%;
+   /*background-color: white;*/
+   
+}
+.menu ul{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+.menu ul a{
+  color: black;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+.menu ul a:hover{
+   border-bottom: 3px solid white;
+   transition-duration: .2s;
+}
+/*---Menu Section End----*/
+
+/*----Contact Media Section Start----*/
+.contact-section-all{
+   background-color: var(--bg-cyan);
+   padding: 100px 0 100px;
+   margin-top: 130px;
+}
+.contact-title{
+   /*padding-top: 100px;*/
+}
+.contact-title h2{
+   font-size: 30px;
+   font-weight: bold;
+}
+.line{
+   width: 35%;
+   border: 1px solid var(--black);
+}
+.contact-form-all{
+   width: 100%;
+   background-color: white;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 10px;
+}
+.contact-media{
+   width: 32%;
+   background-color: var(--lite-cyan);
+   padding: 60px 20px;
+   border-radius: 10px;
+}
+.media-title p{
+   color: var(--navy);
+   font-weight: bold;
+}
+.media-title h2{
+   margin-top: 20px;
+   font-size: 30px;
+}
+.media-all{
+   margin-top: 50px;
+}
+.media{
+   display: flex;
+   margin-top: 20px;
+}
+.media-icon i{
+   background-color: white;
+   border-radius: 100%;
+   padding: 20px;
+   font-size: 20px;
+   height: 60px;
+   width: 60px;
+}
+.media-icon i:last-child{
+   /*padding-left: 5px;*/
+}
+.media-link{
+   margin-left: 20px;
+   margin-top: 5px;
+}
+.media-link a{
+   color: black;
+}
+.media-link a:hover{
+   color: white;
+   transition-duration: .3s;
+}
+.contact-form-section{
+   width: 62%;
+   /*background-color: darkred;*/
+   margin-left: 20px;
+}
+.contact-form{
+      /*padding: 20px;*/
+}
+.get-touch p{
+   color: var(--navy);
+   font-weight: bold;
+}
+legend h2{
+   margin-top: 30px;
+   font-weight: bold;
+   font-size: 35px;
+}
+.form-all{
+   display: flex;
+   margin: 30px 0;
+}
+.form input{
+   /*width: 45px;*/
+   /*height: 25px;*/
+   padding: 25px 45px;
+   margin-right: 30px;
+   border-radius: 5px;
+   border: 0;
+   font-size: 18px;
+   background-color: whitesmoke;
+}
+textarea{
+   width: 650px;
+   height: 120px;
+   border-radius: 5px;
+   background-color: whitesmoke;
+   border: 0;
+   padding: 20px 20px;
+   font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+}
+.submit input{
+   padding: 15px 30px;
+   border-radius: 10px;
+   border: 0;
+   margin-top: 30px;
+   font-weight: bold;
+   font-size: 17px;
+   font-family: 'Lobster', cursive;
+   background-color: var(--lite-cyan);
+   border: 1px solid var(--deep-cyan);
+}
+.submit input:hover{
+   background-color: var(--deep-cyan);
+   transition-duration: .3s;
+}
+/*----Contact Media Secion End----*/
+
+/*----Map Section Start----*/
+.map-canvas iframe{
+   /*background-color: red;*/
+   width: 100%;
+   height: 600px;
+   border: 0;
+   margin-top: 150px;
+}
+/*----Map Section End----*/
+
+/*----Footer Section Start----*/
+.footer-area{
+   background-color: var(--lite-cyan);
+}
+.footer{
+   width: 100%;
+   justify-content: space-between;
+}
+.footer-menu{
+   width: 100%;
+   display: flex;
+   padding: 15px 0px;
+   justify-content: space-between;
+   border-bottom: 1.5px solid var(--deep-cyan);
+   align-items: center;
+}
+.f-menu{
+   width: 80%;
+}
+.f-menu ul{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 20px;
+}
+.f-menu ul a{
+  color: black;
+  padding: 15px 20px;
+  border-width: 2px black;
+  font-size: 20px;
+
+}
+.f-menu ul a:hover{
+   color: #ffffff;
+   transition-duration: 0.3s;
+}
+
+
+.icon li a{
+   color: black;
+   padding: 0px 15px;
+}
+.icon li a:hover{
+   color: #ffffff;
+   transition-duration: 0.4s;
+   background-color: var(--black);
+   border-radius: 10px;
+}
+.icon ul{
+   display: flex;
+   justify-content: flex-end;
+   
+
+}
+.address{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   padding: 15px 0px;
+}
+.address i{
+   margin-right: 10px;
+   color: black;
+
+}
+.address i:hover{
+   color: whitesmoke;
+   transition-duration: 0.3s;
+}
+/*----Footer Section End----*/
